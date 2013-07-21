@@ -1,0 +1,23 @@
+import requests
+from requests_auth_mashery import MasheryAuth
+
+
+def main():
+    api_key = 'angtfaaez72cc48dun5medxn'
+    api_secret = 'Vbafpwzsve'
+
+    mashery_auth = MasheryAuth(api_key, api_secret)
+
+    payload = {
+        'entitytype': 'artist',
+        'query': 'weezer',
+        'format': 'json',
+    }
+    url = 'http://api.rovicorp.com/search/v2.1/music/search'
+    r = requests.get(url, auth=mashery_auth, params=payload)
+
+    print r.content
+
+
+if __name__ == '__main__':
+    main()
