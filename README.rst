@@ -7,7 +7,7 @@ Simple class for making authenticated requests to Mashery APIs using the `reques
 Example
 -------
 
-::
+.. code:: python
 
     import requests
     from requests_auth_mashery import MasheryAuth
