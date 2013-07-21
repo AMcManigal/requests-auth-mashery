@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 
 setup(
-    version='0.0.1',
+    version='0.0.2',
     name='requests-auth-mashery',
     description='Mashery authentication for requests',
     long_description=readme,

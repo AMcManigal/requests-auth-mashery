@@ -13,8 +13,8 @@ Example
 
 
     def main():
-        api_key = 'angtfaaez72cc48dun5medxn'
-        api_secret = 'Vbafpwzsve'
+        api_key = 'EXAMPLE'
+        api_secret = 'EXAMPLE'
 
         mashery_auth = MasheryAuth(api_key, api_secret)
 
